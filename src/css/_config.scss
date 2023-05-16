@@ -1,0 +1,40 @@
+:root {
+  --color-white: #ffffff;
+  --color-cream: #ffe5c4;
+  --color-red: #ee4037;
+  --color-black: #212529;
+  --color-voilet: #3b3874;
+  --color-lightBlack: #21252947;
+}
+
+section {
+  height: calc(100vh - 72px);
+  width: 100%;
+  padding: 3rem 9rem;
+}
+a {
+  text-decoration: none !important;
+  color: var(--color-black) !important;
+  transition: 1s all;
+  &:hover {
+    text-decoration: underline !important;
+    transition: 1s all;
+  }
+}
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 3rem !important;
+  &:before {
+    display: inline-block;
+    content: "";
+    width: 0.2rem;
+    height: 1em;
+    margin: -1rem 1rem -1.35rem 0;
+    transform: translateY(-1rem);
+    background: var(--color-red);
+  }
+}

@@ -1,0 +1,38 @@
+#talks {
+  background-color: var(--color-voilet);
+  color: var(--color-cream);
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 1em;
+    height: 1em;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 1em;
+
+    width: 1em;
+    height: 1em;
+    font-size: 2em;
+    padding: 0;
+    /* margin: 0; */
+    position: absolute;
+    bottom: 1em;
+    /* position: absolute; */
+    right: 3rem;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    /* justify-content: center; */
+    /* padding: 0; */
+    /* margin-right: 15%; */
+    margin-top: 15rem;
+    margin-left: 60%;
+    list-style: none;
+  }
+  .carousel-control-next {
+    margin-left: 63%;
+  }
+}

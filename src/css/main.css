@@ -1,0 +1,188 @@
+:root {
+  --color-white: #ffffff;
+  --color-cream: #ffe5c4;
+  --color-red: #ee4037;
+  --color-black: #212529;
+  --color-voilet: #3b3874;
+  --color-lightBlack: #21252947;
+}
+
+section {
+  height: calc(100vh - 72px);
+  width: 100%;
+  padding: 3rem 9rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--color-black) !important;
+  transition: 1s all;
+}
+a:hover {
+  text-decoration: underline !important;
+  transition: 1s all;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3rem !important;
+}
+h2:before {
+  display: inline-block;
+  content: "";
+  width: 0.2rem;
+  height: 1em;
+  margin: -1rem 1rem -1.35rem 0;
+  transform: translateY(-1rem);
+  background: var(--color-red);
+}
+
+nav {
+  background-color: transparent !important;
+}
+
+#intro {
+  background-image: url("../assets/intro.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+#intro .introWrap {
+  color: var(--color-white);
+  width: 50%;
+}
+#intro .introWrap h1 {
+  font-size: 5em;
+}
+#intro .introWrap .scrollToWrap {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+#intro .introWrap button {
+  border-radius: 3em !important;
+}
+
+#about {
+  background-color: var(--color-cream);
+}
+#about .leftWrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 72px);
+  align-items: start;
+  position: relative;
+}
+#about .rightWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#publication .publicationWrap {
+  width: calc(100% - 20vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 2rem auto 1rem;
+}
+#publication .publicationWrap .publicationImg {
+  width: 54.75rem;
+  margin: 3rem auto 0.5rem;
+  display: flex;
+}
+#publication .publicationWrap span {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#publication .publicationWrap .pubDetailWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+#talks {
+  background-color: var(--color-voilet);
+  color: var(--color-cream);
+}
+#talks .carousel-control-prev,
+#talks .carousel-control-next {
+  width: 1em;
+  height: 1em;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 1em;
+  width: 1em;
+  height: 1em;
+  font-size: 2em;
+  padding: 0;
+  /* margin: 0; */
+  position: absolute;
+  bottom: 1em;
+  /* position: absolute; */
+  right: 3rem;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  /* justify-content: center; */
+  /* padding: 0; */
+  /* margin-right: 15%; */
+  margin-top: 15rem;
+  margin-left: 60%;
+  list-style: none;
+}
+#talks .carousel-control-next {
+  margin-left: 63%;
+}
+
+#archives {
+  display: flex;
+  background-color: var(--color-cream);
+  align-items: center;
+}
+#archives .archiveCardWrap {
+  display: flex;
+}
+#archives .archiveCardWrap .archiveCard {
+  width: 320px;
+  height: 450px;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+}
+#archives .archiveCardWrap .archiveCard .archiveImg {
+  z-index: 1;
+}
+#archives .archiveCardWrap .archiveCard .archiveCardText {
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+#archives .archiveCardWrap .archiveCard .archiveCardText span {
+  background: var(--color-red);
+  padding: 0.15rem 0.75rem 0.15rem 0.75rem;
+}
+#archives .archiveCardWrap .archiveCard .archiveCardText p {
+  font-size: 0.87em;
+  padding: 1.15rem;
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  border-top: 3px solid var(--color-lightBlack);
+  background-color: var(--color-cream);
+}/*# sourceMappingURL=main.css.map */

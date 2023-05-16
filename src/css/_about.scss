@@ -1,0 +1,16 @@
+#about {
+  background-color: var(--color-cream);
+  .leftWrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    align-items: start;
+    position: relative;
+  }
+  .rightWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

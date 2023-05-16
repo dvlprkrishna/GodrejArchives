@@ -1,0 +1,31 @@
+#archives {
+  display: flex;
+  background-color: var(--color-cream);
+  align-items: center;
+  .archiveCardWrap {
+    display: flex;
+    .archiveCard {
+      width: 320px;
+      height: 450px;
+      height: max-content;
+      position: relative;
+
+      .archiveImg {
+        z-index: 1;
+      }
+      .archiveCardText {
+        position: absolute;
+        bottom: 0;
+        z-index: 4;
+        span {
+          background: var(--color-red);
+          padding: 0.15rem 0.75rem 0.15rem 0.75rem;
+        }
+        p {
+          font-size: 0.87em;
+          padding: 1.15rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+#publication {
+  .publicationWrap {
+    width: calc(100% - 20vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2rem auto 1rem;
+    .publicationImg {
+      width: 54.75rem;
+      margin: 3rem auto 0.5rem;
+      display: flex;
+    }
+    span {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .pubDetailWrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9em;
+    }
+  }
+}
