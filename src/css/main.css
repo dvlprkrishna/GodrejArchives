@@ -15,12 +15,19 @@ section {
 
 a {
   text-decoration: none !important;
-  color: var(--color-black) !important;
+  color: var(--color-white) !important;
   transition: 1s all;
+  border-radius: 3rem;
 }
 a:hover {
   text-decoration: underline !important;
   transition: 1s all;
+}
+
+button,
+.btn,
+.rounded {
+  border-radius: 3rem !important;
 }
 
 h1,
@@ -44,6 +51,7 @@ h2:before {
 
 nav {
   background-color: transparent !important;
+  color: var(--color-cream) !important;
 }
 
 #intro {
@@ -86,6 +94,9 @@ nav {
   justify-content: center;
   align-items: center;
 }
+#about button {
+  border-radius: 3em !important;
+}
 
 #publication .publicationWrap {
   width: calc(100% - 20vw);
@@ -109,6 +120,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 0.9em;
+}
+#publication .publicationWrap button {
+  border-radius: 3em !important;
 }
 
 #talks {
@@ -146,6 +160,9 @@ nav {
 }
 #talks .carousel-control-next {
   margin-left: 63%;
+}
+#talks button {
+  border-radius: 3em !important;
 }
 
 #archives {
@@ -185,4 +202,7 @@ footer {
   margin: 0 auto;
   border-top: 3px solid var(--color-lightBlack);
   background-color: var(--color-cream);
+}
+footer a {
+  color: var(--color-Black) !important;
 }/*# sourceMappingURL=main.css.map */

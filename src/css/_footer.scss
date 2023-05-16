@@ -3,4 +3,7 @@ footer {
   margin: 0 auto;
   border-top: 3px solid var(--color-lightBlack);
   background-color: var(--color-cream);
+  a {
+    color: var(--color-Black) !important;
+  }
 }

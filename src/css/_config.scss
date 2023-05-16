@@ -14,12 +14,18 @@ section {
 }
 a {
   text-decoration: none !important;
-  color: var(--color-black) !important;
+  color: var(--color-white) !important;
   transition: 1s all;
   &:hover {
     text-decoration: underline !important;
     transition: 1s all;
   }
+  border-radius: 3rem;
+}
+button,
+.btn,
+.rounded {
+  border-radius: 3rem !important;
 }
 h1,
 h2 {
