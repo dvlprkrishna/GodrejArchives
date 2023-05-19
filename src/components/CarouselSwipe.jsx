@@ -1,5 +1,7 @@
+import { Container, Row, Col, Carousel, Figure, Button } from "react-bootstrap";
+import Slider1 from "../assets/slider1.png";
+import Slider2 from "../assets/slider2.png";
 // Import Swiper React components
-import { Container, Row, Col } from "react-bootstrap";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -19,15 +21,68 @@ const CarouselSwipe = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <Container>
+            <Row className="py-5">
+              <Col xs={12} md={7}>
+                <Figure>
+                  <Figure.Image
+                    width={400}
+                    height={250}
+                    alt="171x180"
+                    src={Slider1}
+                    className="d-block w-100 img-fluid"
+                  />
+                </Figure>
+              </Col>
+              <Col xs={12} md={5} className="py-4">
+                <p className="slideTitle">01 | Thursday Talk</p>
+                <p className="slideInfo">
+                  Corporate & Business Oral History: Opportunities & challenges
+                </p>
+                <div className="talksBtnWrap">
+                  <a href="#" className="px-4 me-3 ga-btn-primary-outlined">
+                    DETAILS
+                  </a>
+                  <a href="#" className="px-4 ga-btn-primary">
+                    REGISTER
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Container>
+            <Row className="py-5">
+              <Col xs={12} md={7}>
+                <Figure>
+                  <Figure.Image
+                    width={400}
+                    height={250}
+                    alt="171x180"
+                    src={Slider1}
+                    className="d-block w-100 img-fluid"
+                  />
+                </Figure>
+              </Col>
+              <Col xs={12} md={5} className="py-4">
+                <p className="slideTitle">01 | Thursday Talk</p>
+                <p className="slideInfo">
+                  Corporate & Business Oral History: Opportunities & challenges
+                </p>
+                <div className="talksBtnWrap">
+                  <a href="#" className="px-4 me-3 ga-btn-primary-outlined">
+                    DETAILS
+                  </a>
+                  <a href="#" className="px-4 ga-btn-primary">
+                    REGISTER
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
       </Swiper>
     </>
   );
