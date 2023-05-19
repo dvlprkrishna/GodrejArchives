@@ -52,6 +52,39 @@ const CarouselSwipe = () => {
             </Row>
           </Container>
         </SwiperSlide>
+
+        <SwiperSlide>
+          <Container>
+            <Row className="py-5">
+              <Col xs={12} md={7}>
+                <Figure>
+                  <Figure.Image
+                    width={400}
+                    height={250}
+                    alt="171x180"
+                    src={Slider2}
+                    className="d-block w-100 img-fluid"
+                  />
+                </Figure>
+              </Col>
+              <Col xs={12} md={5} className="py-4">
+                <p className="slideTitle">01 | Thursday Talk</p>
+                <p className="slideInfo">
+                  Corporate & Business Oral History: Opportunities & challenges
+                </p>
+                <div className="talksBtnWrap">
+                  <a href="#" className="px-4 me-3 ga-btn-primary-outlined">
+                    DETAILS
+                  </a>
+                  <a href="#" className="px-4 ga-btn-primary">
+                    REGISTER
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
+
         <SwiperSlide>
           <Container>
             <Row className="py-5">
@@ -62,6 +95,37 @@ const CarouselSwipe = () => {
                     height={250}
                     alt="171x180"
                     src={Slider1}
+                    className="d-block w-100 img-fluid"
+                  />
+                </Figure>
+              </Col>
+              <Col xs={12} md={5} className="py-4">
+                <p className="slideTitle">01 | Thursday Talk</p>
+                <p className="slideInfo">
+                  Corporate & Business Oral History: Opportunities & challenges
+                </p>
+                <div className="talksBtnWrap">
+                  <a href="#" className="px-4 me-3 ga-btn-primary-outlined">
+                    DETAILS
+                  </a>
+                  <a href="#" className="px-4 ga-btn-primary">
+                    REGISTER
+                  </a>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <Container>
+            <Row className="py-5">
+              <Col xs={12} md={7}>
+                <Figure>
+                  <Figure.Image
+                    width={400}
+                    height={250}
+                    alt="171x180"
+                    src={Slider2}
                     className="d-block w-100 img-fluid"
                   />
                 </Figure>
