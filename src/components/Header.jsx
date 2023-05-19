@@ -31,14 +31,14 @@ const Header = () => {
             style={{ maxHeight: "100px" }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Who We Are</Nav.Link>
-            <Nav.Link href="#action2">What We Do</Nav.Link>
-            <Nav.Link href="#action2">What We Offer</Nav.Link>
-            <Nav.Link href="#action2">Archive Tales</Nav.Link>
-            <Nav.Link href="#action2">Media</Nav.Link>
-            <Nav.Link href="#action2">Contact Us</Nav.Link>
-            <Nav.Link href="#action2">Contribute</Nav.Link>
-            <Nav.Link href="#action2">
+            <Nav.Link href="#about">Who We Are</Nav.Link>
+            <Nav.Link href="#talks">What We Do</Nav.Link>
+            <Nav.Link href="#publication">What We Offer</Nav.Link>
+            <Nav.Link href="#archives">Archive Tales</Nav.Link>
+            <Nav.Link href="#footer">Media</Nav.Link>
+            <Nav.Link href="#footer">Contact Us</Nav.Link>
+            <Nav.Link href="#footer">Contribute</Nav.Link>
+            <Nav.Link href="#footer">
               <Search />
             </Nav.Link>
           </Nav>
