@@ -23,7 +23,7 @@ const CarouselSwipe = () => {
       >
         <SwiperSlide>
           <Container>
-            <Row className="py-5">
+            <Row className="py-5 align-items-end">
               <Col xs={12} md={7}>
                 <Figure>
                   <Figure.Image
@@ -55,7 +55,7 @@ const CarouselSwipe = () => {
 
         <SwiperSlide>
           <Container>
-            <Row className="py-5">
+            <Row className="py-5 align-items-end">
               <Col xs={12} md={7}>
                 <Figure>
                   <Figure.Image
@@ -87,7 +87,7 @@ const CarouselSwipe = () => {
 
         <SwiperSlide>
           <Container>
-            <Row className="py-5">
+            <Row className="py-5 align-items-end">
               <Col xs={12} md={7}>
                 <Figure>
                   <Figure.Image
@@ -118,7 +118,7 @@ const CarouselSwipe = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Container>
-            <Row className="py-5">
+            <Row className="py-5 align-items-end">
               <Col xs={12} md={7}>
                 <Figure>
                   <Figure.Image
