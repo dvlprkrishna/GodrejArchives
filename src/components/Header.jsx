@@ -8,23 +8,10 @@ import godrejLogo from "../assets/logo.png";
 import { Search, Mouse } from "react-bootstrap-icons";
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      setIsScrolled(scrollTop > 0);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <Navbar bg="dark" sticky="top" expand="lg">
+    <Navbar sticky="top" bg="dark" className="headerWrap" expand="lg">
       <Container className="mx-4" fluid>
-        <Navbar bg="dark">
+        <Navbar>
           <Container>
             <Navbar.Brand href="#home">
               <img

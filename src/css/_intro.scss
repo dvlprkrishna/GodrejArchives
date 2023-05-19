@@ -5,7 +5,11 @@
   align-items: center;
   text-align: center;
   background-size: cover;
+  background-color: transparent;
   // height: calc(100vh - 76px);
+  height: 100vh;
+  position: static;
+  top: 0;
   .introWrap {
     color: var(--color-white);
     width: 50%;
@@ -19,6 +23,8 @@
     }
     button {
       border-radius: 3em !important;
+      padding: 0.5rem 3rem !important;
+      font-size: 1em !important;
     }
   }
 }

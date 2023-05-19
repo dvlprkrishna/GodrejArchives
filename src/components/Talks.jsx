@@ -3,6 +3,7 @@ import { Container, Row, Col, Carousel, Figure, Button } from "react-bootstrap";
 import Slider1 from "../assets/slider1.png";
 import Slider2 from "../assets/slider2.png";
 import { ArrowLeftCircle, ArrowRightCircle } from "react-bootstrap-icons";
+import CarouselSwipe from "./CarouselSwipe";
 
 const Talks = () => {
   return (
@@ -20,6 +21,9 @@ const Talks = () => {
           </Col>
         </Row>
         <Row>
+          <CarouselSwipe />
+        </Row>
+        {/* <Row>
           <Col>
             <Carousel
               nextIcon={<ArrowRightCircle />}
@@ -85,7 +89,7 @@ const Talks = () => {
               </Carousel.Item>
             </Carousel>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   );

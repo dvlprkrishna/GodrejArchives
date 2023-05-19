@@ -2,6 +2,40 @@
   display: flex;
   background-color: var(--color-cream);
   align-items: center;
+  p.latestBlog {
+    font-weight: bold;
+  }
+  p.latestBlog,
+  p.latestNews {
+    position: relative;
+    margin-left: 3em;
+    padding-left: 1em;
+    color: var(--color-black);
+    &:hover {
+      font-weight: bold;
+      color: var(--color-red);
+    }
+  }
+
+  p.latestBlog::before,
+  p.latestNews::before {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: var(--color-red);
+    color: var(--color-red);
+    position: absolute;
+    top: 0.65em;
+    left: -49px;
+    bottom: 0;
+    padding: 0em;
+  }
+  p.latestNews::before {
+    width: 50px;
+    left: -19px;
+    color: var(--color-lightBlack);
+    background-color: var(--color-lightBlack);
+  }
   .archiveCardWrap {
     display: flex;
     .archiveCard {

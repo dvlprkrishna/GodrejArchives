@@ -1,5 +1,5 @@
 import Button from "react-bootstrap/Button";
-import { Search, Mouse } from "react-bootstrap-icons";
+import { Mouse } from "react-bootstrap-icons";
 
 const Intro = () => {
   return (
@@ -13,13 +13,9 @@ const Intro = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat
           </p>
-          <Button
-            variant="warning"
-            className="px-4 rounded btn-round-lg btn-lg btn btn-default"
-          >
-            {" "}
-            LET'S START THE TOUR{" "}
-          </Button>
+          <a href="#about" className="px-5 ga-btn-primary">
+            LET'S START THE TOUR
+          </a>
           <div className="scrollToWrap">
             <a href="#">
               <Mouse color="gray" size={42} />

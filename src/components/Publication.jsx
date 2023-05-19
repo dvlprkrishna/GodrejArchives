@@ -9,8 +9,8 @@ const Publication = () => {
       <Container>
         <Row>
           <h2>Publication</h2>
-          <Row>
-            <Col>
+          <Row className="justify-content-center">
+            <Col xs={11} md={9} className="mt-5">
               <img
                 src={publicationImage}
                 className="img-fluid publicationImg"
@@ -31,16 +31,11 @@ const Publication = () => {
                     <CardText color="gray" size={16} /> Volume 1, Issue 1
                   </p>
                 </div>
-                <Row>
-                  <Col>
-                    <Button
-                      variant="light"
-                      className="px-4 rounded btn-round-lg btn-lg btn btn-default"
-                    >
-                      EXPLORE
-                    </Button>
-                  </Col>
-                </Row>
+                <div className="mt-3 mb-2">
+                  <a href="#" className=" ga-btn-primary px-4 mt-5 ms-0">
+                    EXPLORE
+                  </a>
+                </div>
               </Col>
               <Col xs={12} md={8}>
                 <p>

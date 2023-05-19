@@ -21,12 +21,9 @@ const About = () => {
                 of Godrej - its products, plants and people - and making it
                 available for research.
               </p>
-              <Button
-                variant="light"
-                className="px-4 rounded btn-round-lg btn-lg btn btn-default"
-              >
+              <a href="#talks" className="ms-0 ga-btn-primary-outlined px-5 ">
                 EXPLORE
-              </Button>
+              </a>
             </Col>
             <Col xs={12} md={6} className="rightWrap">
               <img src={aboutImage} className="img-fluid" alt="" srcset="" />

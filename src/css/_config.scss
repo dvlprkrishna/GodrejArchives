@@ -6,11 +6,14 @@
   --color-voilet: #3b3874;
   --color-lightBlack: #21252947;
 }
-
+body {
+  background-color: var(--color-cream);
+}
 section {
-  height: calc(100vh - 72px);
+  // height: calc(100vh - 72px);
+  height: 100vh;
   width: 100%;
-  padding: 3rem 9rem;
+  padding: 3rem 9rem 1rem;
 }
 a {
   text-decoration: none !important;
@@ -25,6 +28,7 @@ a {
 button,
 .btn,
 .rounded {
+  margin: 0.25em 2em !important;
   border-radius: 3rem !important;
 }
 h1,
@@ -42,5 +46,38 @@ h2 {
     margin: -1rem 1rem -1.35rem 0;
     transform: translateY(-1rem);
     background: var(--color-red);
+  }
+}
+// buttons
+.ga-btn-primary {
+  color: var(--color-cream) !important;
+  text-transform: uppercase !important;
+  font-size: 1em !important;
+  line-height: 1.2;
+  padding: 0.65em 3em !important ;
+  background-color: var(--color-red) !important;
+  border-color: var(--color-red);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none !important;
+    opacity: 0.7;
+  }
+}
+.ga-btn-primary-outlined {
+  color: var(--color-black) !important;
+  text-transform: uppercase !important;
+  font-size: 1em !important;
+  line-height: 1.2;
+  padding: 0.65em 3em !important ;
+  border: 2px solid var(--color-black);
+  text-decoration: none;
+  background-color: transparent !important;
+  font-weight: bold;
+  &:hover {
+    text-decoration: none !important;
+    border: 2px solid var(--color-black);
+    background-color: var(--color-black) !important;
+    opacity: 0.7;
+    color: var(--color-cream) !important;
   }
 }

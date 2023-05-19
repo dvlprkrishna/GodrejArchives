@@ -18,8 +18,8 @@ const Archives = () => {
               minim veniam, quis nostrud exercitation ullamco laboris nisi
             </p>
             <div>
-              <p>LATEST BLOG</p>
-              <p>ARCHIVES IN NEWS</p>
+              <p className="latestBlog ps-5">LATEST BLOG</p>
+              <p className="latestNews ps-5">ARCHIVES IN NEWS</p>
             </div>
           </Col>
           <Col xs={12} md={7} className="rightWrap">
